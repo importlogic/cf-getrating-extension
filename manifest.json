@@ -1,0 +1,15 @@
+{
+    "name": "CF GetRating",
+    "description": "Get rating for Codeforces problems even with problem tags off.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+          "matches": [ "*://codeforces.com/problemset/problem/*/*", "*://codeforces.com/contest/*/problem/*" ],
+          "js": [ "background.js" ]
+        }
+    ]
+}
