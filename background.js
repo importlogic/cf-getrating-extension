@@ -41,27 +41,22 @@ async function fetchData(){
     }
 
     var toInsert;
-    if(rating != null && rating > -1){
+    if(rating == null){
         toInsert = `
-                            <div class="roundbox sidebox" style="">
-                                <div class="roundbox-lt">&nbsp;</div>
-                                <div class="roundbox-rt">&nbsp;</div>
-                                <div class="caption titled">→ CF GetRating
-                                    <div class="top-links"></div>
-                                </div>
-                                <div style="padding: 0.5em; height: 27px">
-                                    <div class="roundbox " style="margin:2px; padding:0 3px 2px 3px; background-color:#f0f0f0;float:left;">
-                                        <div class="roundbox-lt">&nbsp;</div>
-                                        <div class="roundbox-rt">&nbsp;</div>
-                                        <div class="roundbox-lb">&nbsp;</div>
-                                        <div class="roundbox-rb">&nbsp;</div>
-                                        <span class="tag-box" style="font-size:1.2rem;" title="Difficulty">
-                                            *${rating}
-                                        </span>
-                                    </div>
+                        <div class="roundbox sidebox" style="">
+                            <div class="roundbox-lt">&nbsp;</div>
+                            <div class="roundbox-rt">&nbsp;</div>
+                            <div class="caption titled">→ CF GetRating
+                                <div class="top-links"></div>
+                            </div>
+
+                            <div>
+                                <div style="margin:1em;font-size:0.8em;color: red;">
+                                    Rating not available for this question.
                                 </div>
                             </div>
-                        `
+                        </div>
+                    `
     }
     else if(rating == -1){
         toInsert = `
@@ -74,9 +69,31 @@ async function fetchData(){
 
                             <div>
                                 <div style="margin:1em;font-size:0.8em;color: red;">
-                                    Codeforces API Error
+                                    Codeforces API Error.
                                 </div>
-                             </div>
+                            </div>
+                        </div>
+                    `
+    }
+    else{
+        toInsert = `
+                        <div class="roundbox sidebox" style="">
+                            <div class="roundbox-lt">&nbsp;</div>
+                            <div class="roundbox-rt">&nbsp;</div>
+                            <div class="caption titled">→ CF GetRating
+                                <div class="top-links"></div>
+                            </div>
+                            <div style="padding: 0.5em; height: 27px">
+                                <div class="roundbox " style="margin:2px; padding:0 3px 2px 3px; background-color:#f0f0f0;float:left;">
+                                    <div class="roundbox-lt">&nbsp;</div>
+                                    <div class="roundbox-rt">&nbsp;</div>
+                                    <div class="roundbox-lb">&nbsp;</div>
+                                    <div class="roundbox-rb">&nbsp;</div>
+                                    <span class="tag-box" style="font-size:1.2rem;" title="Difficulty">
+                                        *${rating}
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     `
     }
