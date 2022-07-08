@@ -49,11 +49,13 @@ async function fetchData(){
                             <div class="caption titled">→ CF GetRating
                                 <div class="top-links"></div>
                             </div>
-
                             <div>
                                 <div style="margin:1em;font-size:0.8em;color: red;">
                                     Rating not available for this question.
                                 </div>
+                            </div>
+                            <div style="text-align:center;margin-bottom:15px">
+                                <a href="https://codeforces.com/contest/${id}/standings" target="_blank"><button>Contest Standings</button></a>
                             </div>
                         </div>
                     `
@@ -66,11 +68,13 @@ async function fetchData(){
                             <div class="caption titled">→ CF GetRating
                                 <div class="top-links"></div>
                             </div>
-
                             <div>
                                 <div style="margin:1em;font-size:0.8em;color: red;">
                                     Codeforces API Error.
                                 </div>
+                            </div>
+                            <div style="text-align:center;margin-bottom:15px">
+                                <a href="https://codeforces.com/contest/${id}/standings" target="_blank"><button>Contest Standings</button></a>
                             </div>
                         </div>
                     `
@@ -83,7 +87,7 @@ async function fetchData(){
                             <div class="caption titled">→ CF GetRating
                                 <div class="top-links"></div>
                             </div>
-                            <div style="padding: 0.5em; height: 27px">
+                            <div style="padding: 0.5em;margin-bottom: 25px;">
                                 <div class="roundbox " style="margin:2px; padding:0 3px 2px 3px; background-color:#f0f0f0;float:left;">
                                     <div class="roundbox-lt">&nbsp;</div>
                                     <div class="roundbox-rt">&nbsp;</div>
@@ -93,6 +97,9 @@ async function fetchData(){
                                         *${rating}
                                     </span>
                                 </div>
+                            </div>
+                            <div style="text-align:center;margin-bottom:15px">
+                                <a href="https://codeforces.com/contest/${id}/standings" target="_blank"><button>Contest Standings</button></a>
                             </div>
                         </div>
                     `
