@@ -1,4 +1,4 @@
-Download Links [ [ Chrome Web Store ](https://chrome.google.com/webstore/detail/cf-getrating/amnjdhcbnpchmbggnfachokcjiidcpkc) ]
+Download Links [ [ Chrome Web Store ](https://chrome.google.com/webstore/detail/cf-getrating/amnjdhcbnpchmbggnfachokcjiidcpkc) | [ Firefox Addons Store ](https://addons.mozilla.org/en-US/firefox/addon/cf-getrating) ]
 
 Get rating for Codeforces problems even with problem tags off.
 This Codeforces Get Rating extension helps users to just view the problem rating without seeing the other tags.
@@ -16,4 +16,4 @@ How to use :
 
 ![Success Screenshot](https://user-images.githubusercontent.com/71769231/177911572-53e3a9dd-2e03-4e74-8de6-adc213381b32.png)
 
-Download Links [ [ Chrome Web Store ](https://chrome.google.com/webstore/detail/cf-getrating/amnjdhcbnpchmbggnfachokcjiidcpkc) ]
+Download Links [ [ Chrome Web Store ](https://chrome.google.com/webstore/detail/cf-getrating/amnjdhcbnpchmbggnfachokcjiidcpkc) | [ Firefox Addons Store ](https://addons.mozilla.org/en-US/firefox/addon/cf-getrating) ]
