@@ -2,16 +2,16 @@
     "name": "CF GetRating",
     "description": "Get rating for Codeforces problems even with problem tags off.",
     "version": "1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "icons": {
         "16":  "images/icon_16.png",
         "32":  "images/icon_32.png",
         "48":  "images/icon_48.png",
         "128": "images/icon_128.png"
     },
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": "images/icon.png"
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html"
     },
     "content_scripts": [
         {
