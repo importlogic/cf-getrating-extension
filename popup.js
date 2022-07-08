@@ -3,7 +3,7 @@ const linkedin = document.querySelector(".ri-linkedin-box-fill");
 const mail = document.querySelector(".ri-mail-fill");
 
 github.addEventListener("click", () => {
-    window.open("https://github.com/importlogic/cf-getrating", '_blank').focus();
+    window.open("https://github.com/importlogic/cf-getrating-extension", '_blank').focus();
 })
 
 linkedin.addEventListener("click", () => {
