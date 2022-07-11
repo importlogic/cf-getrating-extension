@@ -5,11 +5,11 @@ var index;
 
 if(url[23] == 'c'){
     id = url.slice(31, 35);
-    index = url.slice(44, 45);
+    index = url.slice(44, url.length);
 }
 else{
     id = url.slice(42, 46);
-    index = url.slice(47, 48);
+    index = url.slice(47, url.length);
 }
 
 const requestURL = `https://codeforces.com/api/contest.standings?contestId=${id}&from=1&count=1`;
