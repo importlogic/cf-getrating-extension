@@ -4,12 +4,16 @@ var id;
 var index;
 
 if(url[23] == 'c'){
-    id = url.slice(31, 35);
-    index = url.slice(44, url.length);
+    var data = url.slice(31, url.length);
+    var dataArray = data.split(/[\/\?]/);
+    id = dataArray[0];
+    index = dataArray[2];
 }
 else{
-    id = url.slice(42, 46);
-    index = url.slice(47, url.length);
+    var data = url.slice(42, url.length);
+    var dataArray = data.split(/[\/\?]/);
+    id = dataArray[0];
+    index = dataArray[1];
 }
 
 const requestURL = `https://codeforces.com/api/contest.standings?contestId=${id}&from=1&count=1`;
