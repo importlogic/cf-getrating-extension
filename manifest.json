@@ -16,7 +16,8 @@
     "content_scripts": [
         {
           "matches": [ "*://codeforces.com/problemset/problem/*/*", "*://codeforces.com/contest/*/problem/*" ],
-          "js": [ "background.js" ]
+          "js": [ "background.js" ],
+          "css": [ "background.css" ]
         }
     ]
 }
