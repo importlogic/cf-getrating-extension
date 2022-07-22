@@ -175,13 +175,3 @@ async function fetchData(){
     getRatingBox.innerHTML = toInsert;
     document.querySelector("#sidebar").appendChild(getRatingBox);
 }
-
-{/* <div class="roundbox tagBoxGetRating" style="margin:2px; padding:0 3px 2px 3px; background-color:#f0f0f0;float:left; display: none;">
-<div class="roundbox-lt">&nbsp;</div>
-<div class="roundbox-rt">&nbsp;</div>
-<div class="roundbox-lb">&nbsp;</div>
-<div class="roundbox-rb">&nbsp;</div>
-<span class="tag-box" style="font-size:1.2rem;" title="Difficulty">
-    ${tag}
-</span>
-</div> */}
