@@ -1,7 +1,7 @@
 {
     "name": "CF GetRating",
     "description": "Get rating for Codeforces problems even with problem tags off.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "manifest_version": 2,
     "icons": {
         "16":  "images/icon_16.png",
