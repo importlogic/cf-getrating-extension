@@ -15,7 +15,7 @@
     },
     "content_scripts": [
         {
-          "matches": [ "*://codeforces.com/problemset/problem/*/*", "*://codeforces.com/contest/*/problem/*", "*://codeforces.com/gym/102694/problem/*" ],
+          "matches": [ "*://codeforces.com/problemset/problem/*/*", "*://codeforces.com/contest/*/problem/*", "*://codeforces.com/gym/*/problem/*" ],
           "js": [ "background.js" ],
           "css": [ "background.css" ]
         }
